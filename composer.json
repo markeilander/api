@@ -1,0 +1,24 @@
+{
+    "name": "eilander/api",
+    "description": "Laravel 5 api package",
+    "keywords": ["laravel", "api", "fractal" , "laravel5"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Mark Eilander",
+        "email": "mark.eilander@outlook.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*|5.2.*"
+    },
+    "require-dev": {
+        "markeilander/generators": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eilander\\Api\\": "src/"
+        }
+    }
+}
